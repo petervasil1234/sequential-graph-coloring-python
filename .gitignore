@@ -2,3 +2,4 @@ venv
 .idea
 *.iml
 output.txt
+.DS_Store
