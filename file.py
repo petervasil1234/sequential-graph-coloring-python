@@ -57,7 +57,7 @@ def write_output_file(filepath, colored_nodes):
 
 def main():
     nodes_neighbors = parse_input_file('input.txt')
-    nodes_to_color = sorted(nodes_neighbors.keys())
+    nodes_to_color = nodes_neighbors.keys()
     possible_colors = range(1, len(nodes_to_color) + 1)
     print("Nodes neighbors:", nodes_neighbors)
     print("Nodes to color:", *nodes_to_color)
